@@ -13,6 +13,7 @@
 		E8267EB11D6E4F4E00DFEC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8267EB01D6E4F4E00DFEC26 /* Assets.xcassets */; };
 		E8267EB41D6E4F4E00DFEC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8267EB21D6E4F4E00DFEC26 /* LaunchScreen.storyboard */; };
 		E8267EBF1D6E4F4E00DFEC26 /* ukrainian_triviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8267EBE1D6E4F4E00DFEC26 /* ukrainian_triviaTests.swift */; };
+		E8267ECA1D70F99600DFEC26 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8267EC91D70F99600DFEC26 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E8267EBA1D6E4F4E00DFEC26 /* ukrainian_triviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ukrainian_triviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8267EBE1D6E4F4E00DFEC26 /* ukrainian_triviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ukrainian_triviaTests.swift; sourceTree = "<group>"; };
 		E8267EC01D6E4F4E00DFEC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8267EC91D70F99600DFEC26 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E8267EA91D6E4F4E00DFEC26 /* AppDelegate.swift */,
 				E8267EAB1D6E4F4E00DFEC26 /* ViewController.swift */,
 				E8267EAD1D6E4F4E00DFEC26 /* Main.storyboard */,
+				E8267EC91D70F99600DFEC26 /* RatingControl.swift */,
 				E8267EB01D6E4F4E00DFEC26 /* Assets.xcassets */,
 				E8267EB21D6E4F4E00DFEC26 /* LaunchScreen.storyboard */,
 				E8267EB51D6E4F4E00DFEC26 /* Info.plist */,
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8267EAC1D6E4F4E00DFEC26 /* ViewController.swift in Sources */,
+				E8267ECA1D70F99600DFEC26 /* RatingControl.swift in Sources */,
 				E8267EAA1D6E4F4E00DFEC26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +401,7 @@
 				E8267EC51D6E4F4E00DFEC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8267EC61D6E4F4E00DFEC26 /* Build configuration list for PBXNativeTarget "ukrainian_triviaTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				E8267EC81D6E4F4E00DFEC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
